@@ -28,7 +28,4 @@
 <!-- GPS -->
 <project path="hardware/qcom-caf/gps-legacy" name="MI439-CLO/android_hardware_qcom_gps" remote="github" revision="uvite-legacy-component" />
 
-<!-- Signing -->
-<project path="Certs" name="blazey66/Certs" remote="github" revision="master" />
-
 </manifest>
