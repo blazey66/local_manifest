@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Device -->
+<project path="device/xiaomi/mi439" name="blazey66/device_xiaomi_mi439" remote="github" revision="A15" />
+<project path="device/qcom/common" name="blazey66/device_qcom_common" remote="github" revision="A15" />
+
+<!--- Vendor Blobs -->
+<project path="vendor/xiaomi/mi439" name="LOLZKERNEL/proprietary_vendor_xiaomi_mi439-4.19" remote="github" clone-depth="1" revision="vic" />
+<project path="vendor/qcom/common" name="LOLZKERNEL/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="vauxite-qpr1" />
+
+<!-- Vendor Opensource -->
+<project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="vic" />
+
+<!-- Kernel -->
+<project path="kernel/xiaomi/sdm439" name="Jprimero15/android_kernel_xiaomi_sdm439-4.19" remote="github" clone-depth="1" revision="vic" />
+
+<!-- Dependencies -->
+<project path="hardware/mithorium-4.19/display" name="AsTechpro20/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" revision="vic" />
+<project path="hardware/mithorium-4.19/display-commonsys" name="MI439-CLO/android_vendor_qcom_opensource_display-commonsys" remote="github" revision="vic" />
+
+<!-- HALs -->
+<project path="hardware/mithorium-4.19" name="MI439-CLO/android_hardware_mithorium-4.19" remote="github" revision="vic" />
+<project path="hardware/mithorium-4.19/audio-hal" name="Mi-Thorium/android_hardware_qcom_audio_mithorium" remote="github" revision="mithorium/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0" />
+<project path="hardware/mithorium-4.19/display-hal" name="MI439-CLO/android_hardware_qcom_display_mithorium" remote="github" revision="vic" />
+<project path="hardware/mithorium-4.19/media-hal" name="Mi-Thorium/android_hardware_qcom_media_mithorium" remote="github" revision="mithorium/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0" />
+
+<!-- GPS -->
+<project path="hardware/qcom-caf/gps-legacy" name="MI439-CLO/android_hardware_qcom_gps" remote="github" revision="uvite-legacy-component" />
+
+<!-- Signing -->
+<project path="Certs" name="blazey66/Certs" remote="github" revision="master" />
+
+</manifest>
