@@ -6,8 +6,8 @@
 <project path="device/qcom/common" name="blazey66/device_qcom_common" remote="github" revision="A15" />
 
 <!--- Vendor Blobs -->
-<project path="vendor/xiaomi/mi439" name="LOLZKERNEL/proprietary_vendor_xiaomi_mi439-4.19" remote="github" clone-depth="1" revision="vic" />
-<project path="vendor/qcom/common" name="LOLZKERNEL/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="vauxite-qpr1" />
+<project path="vendor/xiaomi/mi439" name="blazey66/proprietary_vendor_xiaomi_mi439-4.19" remote="github" clone-depth="1" revision="vic" />
+<project path="vendor/qcom/common" name="blazey66/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="vauxite-qpr1" />
 
 <!-- Vendor Opensource -->
 <project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="vic" />
