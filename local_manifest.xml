@@ -6,7 +6,7 @@
 
   <remote  name="blazey66"
            fetch="https://github.com/blazey66"
-           revision="crd/15" />
+           revision="voltage/15" />
 
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="blazey66"/>
