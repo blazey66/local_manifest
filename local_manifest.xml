@@ -12,6 +12,7 @@
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="blazey66"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium"/>
+  <remove-project name="android_lineage-sdk" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="blazey66" />
 
 
