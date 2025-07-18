@@ -13,7 +13,6 @@
            revision="lineage-18.1" />
 
  <!-- Dependencies -->
-  <remove-project name="LineageOS/android_hardware_lineage_compat"/>
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="mi-thorium" revision="lineage-18.1"/>
 
  <!-- Replacements -->
